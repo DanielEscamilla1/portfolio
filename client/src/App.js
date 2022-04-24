@@ -5,6 +5,7 @@ import Projects from './components/projects/Projects'
 import Contact from './components/contact/Contact'
 import Navbar from './components/nav/Navbar';
 import { BrowserRouter as Router } from 'react-router-dom'
+import ProjectList from './components/projectcards/ProjectList';
 
 
 function App() {
@@ -13,7 +14,7 @@ function App() {
       <Navbar />
       <Intro />
       <Aboutme />
-      <Projects />
+      <ProjectList />
       <Contact />
     </Router>
   );
