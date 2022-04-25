@@ -9,15 +9,13 @@ const ProjectList = () => {
   return (
     <div className="pl">
       <div className="pl-text">
-        <h1 className="pl-title">Create & inspire. It's lama</h1>
+        <h1 className="pl-title">My Software Engineering Journal!</h1>
         <p className="pl-desc">
-          Lama is a creative portfolio that your work has been waiting for a you
-          new beautiful home.
         </p>
       </div>
       <div className="pl-list">
         {projects.map((item) => (
-          <Projects key={item.id} img={item.img} link={item.link} />
+          <Projects key={item.id} title={item.title} img={item.img} link={item.link} />
         ))}
       </div>
     </div>

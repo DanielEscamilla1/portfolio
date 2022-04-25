@@ -1,13 +1,15 @@
 import React from "react";
 import "./Aboutme.css";
 import AboutMe from "../../img/Me.jpg";
-import HTML from "../../img/html.png";
-import CSS from "../../img/css.png";
-import JS from "../../img/js.png";
-import REACT from "../../img/react.png";
-import NODE from "../../img/node.png";
-import MYSQL from "../../img/mysql.png";
-import GIT from "../../img/git.png";
+import Html from "../../img/html.png";
+import Css from "../../img/css.png";
+import Js from "../../img/js.png";
+import React1 from "../../img/react.png";
+import Node from "../../img/node.png";
+import Mysql from "../../img/mysql.png";
+import Git from "../../img/git.png";
+import Sass from "../../img/sass.png";
+import Java from "../../img/java.png";
 
 const Aboutme = () => {
   return (
@@ -36,13 +38,15 @@ const Aboutme = () => {
             </p> */}
         </div>
         <div className="a-award">
-          <img src={HTML} alt="" className="a-award" />
-          <img src={CSS} alt="" className="a-award" />
-          <img src={JS} alt="" className="a-award" />
-          <img src={REACT} alt="" className="a-award" />
-          <img src={NODE} alt="" className="a-award" />
-          <img src={MYSQL} alt="" className="a-award" />
-          <img src={GIT} alt="" className="a-award" />
+          <img src={Html} alt="" className="a-award" />
+          <img src={Css} alt="" className="a-award" />
+          <img src={Js} alt="" className="a-award" />
+          <img src={Git} alt="" className="a-award" />
+          <img src={Sass} alt="" className="a-award" />
+          <img src={React1} alt="" className="a-award" />
+          <img src={Node} alt="" className="a-award" />
+          <img src={Mysql} alt="" className="a-award" />
+          <img src={Java} alt="" className="a-award" />
         </div>
       </div>
     </div>
