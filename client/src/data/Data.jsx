@@ -1,32 +1,32 @@
 export const projects = [
     {
         id: 1,
-        img: "./../../img/Greece.png",
+        img: "../../images/greece.png",
         link: "https://kickers1.herokuapp.com/",
     },
     {
         id: 2,
-        img: "../../img/Greece.png",
-        link: "https://kickers1.herokuapp.com/",
+        img: "../../images/aa.png",
+        link: "https://aquaalert.herokuapp.com/",
     },
     {
         id: 3,
-        img: "../../img/Greece.png",
-        link: "https://kickers1.herokuapp.com/",
+        img: "../../images/webmaster.png",
+        link: "https://master.d3305b2fz9d4xf.amplifyapp.com/",
     },
     {
         id: 4,
-        img: "../../img/Greece.png",
+        img: "../../images/ecom.png",
         link: "https://kickers1.herokuapp.com/",
     },
     {
         id: 5,
-        img: "../../img/Greece.png",
-        link: "https://kickers1.herokuapp.com/",
+        img: "../../images/tesla.png",
+        link: "http://dylisthebest.c9tesla.com/",
     },
     {
         id: 6,
-        img: "../../img/Greece.png",
+        img: "../../images/greece.png",
         link: "https://kickers1.herokuapp.com/",
     },
 ]

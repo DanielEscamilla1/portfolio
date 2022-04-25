@@ -10,7 +10,7 @@ const Projects = ({img,link}) => {
         <div className="p-circle"></div>
       </div>
       <a href={link} target="_blank" rel='noreferrer'>
-        <img src={img} alt="" className='p-img'/>
+        <img src={img} alt="img" className='p-img'/>
       </a>
     </div>
   )
