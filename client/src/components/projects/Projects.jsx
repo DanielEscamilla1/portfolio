@@ -13,7 +13,7 @@ const Projects = ({ img, title, link, gitLink }) => {
         <div className="p-circle"></div>
         <div className="p-circle"></div>
         <div className="p-circle"></div>
-        <h2 style={{ color: darkMode && "black" }}>{title}</h2>
+        <h2 className="p-t" style={{ color: darkMode && "black" }}>{title}</h2>
       </div>
       <div className="gitBtn">
         <a

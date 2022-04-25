@@ -103,4 +103,8 @@
   .a-right {
     padding: 20px;
   }
+
+  .a-award-title {
+    display: none;
+  }
 }
