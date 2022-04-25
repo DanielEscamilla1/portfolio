@@ -11,19 +11,19 @@ const Intro = () => {
           <h1 className="i-name">Daniel Escamilla</h1>
           <div className="i-title">
             <div className="i-title-wrapper">
-              <div className="i-title-item">Web Developer</div>
-              <div className="i-title-item">Gamer</div>
+              <div className="i-title-item"> Full Stack Web Developer</div>
+              {/* <div className="i-title-item">Gamer</div>
               <div className="i-title-item">Soccer player</div>
               <div className="i-title-item">Gym Rat</div>
-              <div className="i-title-item">Model</div>
+              <div className="i-title-item">Model</div> */}
             </div>
           </div>
-          <p className="i-description">
+          {/* <p className="i-description">
             I am a problem solver, future full-stack developer, from Charlotte
             North Carolina. My passion for software development stems from my
             love of engineering in general. I love problem solving and finding
             what makes everything work.
-          </p>
+          </p> */}
         </div>
         
       </div>

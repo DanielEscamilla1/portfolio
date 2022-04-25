@@ -48,6 +48,8 @@
 
 .c-desc {
     font-weight: 200;
+    margin-right: 70%;
+    font-size: 21.5px;
 }
 
 form {
@@ -78,4 +80,40 @@ button {
     color: white;
     font-weight: 500;
     cursor: pointer;
+}
+
+@media screen and (max-width: 480px) {
+    .c-wrapper{
+        flex-direction: column;
+        padding: 0px 50px;
+    }
+    
+    .c-title {
+        font-size: 30px;
+    }
+
+    .c-info-item {
+        margin: 20px 0px;
+        width: 100%;
+    }
+
+    .c-desc {
+        display: none;
+    }
+
+    form {
+        margin-top: 0px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    input {
+        width: 35%;
+        height: 10px;
+        margin-left: 0;
+    }
+
+    button {
+        margin-top: 10px;
+    }
 }

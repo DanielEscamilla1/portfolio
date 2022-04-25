@@ -11,7 +11,6 @@ import { useContext } from "react";
 import { ThemeContext } from "./context";
 
 function App() {
-
   const theme = useContext(ThemeContext)
   const darkMode = theme.state.darkMode
   return (

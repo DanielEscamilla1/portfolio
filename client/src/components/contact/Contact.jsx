@@ -1,6 +1,8 @@
 import React, { useRef, useState } from "react";
 import "./Contact.css";
 import Phone from "../../img/Phone.png";
+import Email from "../../img/email.png";
+import Address from "../../img/address.png";
 import emailjs from "@emailjs/browser";
 import { useContext } from "react";
 import { ThemeContext } from "../../context";
@@ -40,22 +42,21 @@ const Contact = () => {
           <div className="c-info">
             <div className="c-info-item">
               <img src={Phone} alt="" className="c-icon" />
-              +1 123 456 7890
+              +1 (336) 561-6735
             </div>
             <div className="c-info-item">
-              <img src={Phone} alt="" className="c-icon" />
-              contact@lama.com
+              <img src={Email} alt="" className="c-icon" />
+              descamilla128@gmail.com
             </div>
             <div className="c-info-item">
-              <img src={Phone} alt="" className="c-icon" />
-              123 Unity st, Thomasville, North Carolina
+              <img src={Address} alt="" className="c-icon" />
+              210 Lynella lane, Thomasville, North Carolina
             </div>
           </div>
         </div>
         <div className="c-right">
           <p className="c-desc">
-            <b>What's your story?</b>Get in touch. Always freelancing if the
-            right project comes along.
+            <b>What's your story?</b>
           </p>
           <form ref={formRef} onSubmit={handleSubmit}>
             <input style={{backgroundColor: darkMode && "#333"}} type="text" placeholder="First Name" name="user_name" />
