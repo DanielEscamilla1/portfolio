@@ -10,8 +10,8 @@ import { ThemeContext } from "../../context";
 const Contact = () => {
   const formRef = useRef();
   const [done, setDone] = useState(false);
-  const theme = useContext(ThemeContext)
-  const darkMode = theme.state.darkMode
+  const theme = useContext(ThemeContext);
+  const darkMode = theme.state.darkMode;
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -25,7 +25,7 @@ const Contact = () => {
       .then(
         (result) => {
           console.log(result.text);
-          setDone(true)
+          setDone(true);
         },
         (error) => {
           console.log(error.text);
@@ -59,10 +59,30 @@ const Contact = () => {
             <b>What's your story?</b>
           </p>
           <form ref={formRef} onSubmit={handleSubmit}>
-            <input style={{backgroundColor: darkMode && "#333"}} type="text" placeholder="First Name" name="user_name" />
-            <input style={{backgroundColor: darkMode && "#333"}} type="text" placeholder="Last Name" name="user_subject" />
-            <input style={{backgroundColor: darkMode && "#333"}} type="text" placeholder="Email" name="user_email" />
-            <textarea style={{backgroundColor: darkMode && "#333"}} name="message" rows="5" placeholder="Message"></textarea>
+            <input
+              style={{ backgroundColor: darkMode && "#333" }}
+              type="text"
+              placeholder="First Name"
+              name="user_name"
+            />
+            <input
+              style={{ backgroundColor: darkMode && "#333" }}
+              type="text"
+              placeholder="Last Name"
+              name="user_subject"
+            />
+            <input
+              style={{ backgroundColor: darkMode && "#333" }}
+              type="text"
+              placeholder="Email"
+              name="user_email"
+            />
+            <textarea
+              style={{ backgroundColor: darkMode && "#333" }}
+              name="message"
+              rows="5"
+              placeholder="Message"
+            ></textarea>
             <button>Submit</button>
             {done && " Thank you..."}
           </form>

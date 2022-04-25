@@ -11,11 +11,16 @@ import { useContext } from "react";
 import { ThemeContext } from "./context";
 
 function App() {
-  const theme = useContext(ThemeContext)
-  const darkMode = theme.state.darkMode
+  const theme = useContext(ThemeContext);
+  const darkMode = theme.state.darkMode;
   return (
     <Router>
-      <div style={{ backgroundColor:darkMode ? "#222" : "white", color:darkMode && "white" }}>
+      <div
+        style={{
+          backgroundColor: darkMode ? "#222" : "white",
+          color: darkMode && "white",
+        }}
+      >
         <Navbar />
         <Toggle />
         <Intro />

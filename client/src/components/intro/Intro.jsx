@@ -1,8 +1,12 @@
 import React from "react";
 import "./Intro.css";
-import Me from "../../img/Me1.png"
+import Me from "../../img/Me1.png";
+import { useContext } from "react";
+import { ThemeContext } from "../../context";
 
 const Intro = () => {
+  const theme = useContext(ThemeContext);
+  const darkMode = theme.state.darkMode;
   return (
     <div className="i">
       <div className="i-left">
@@ -11,7 +15,13 @@ const Intro = () => {
           <h1 className="i-name">Daniel Escamilla</h1>
           <div className="i-title">
             <div className="i-title-wrapper">
-              <div className="i-title-item"> Full Stack Web Developer</div>
+              <div
+                style={{ color: darkMode && "white" }}
+                className="i-title-item"
+              >
+                {" "}
+                Full Stack Web Developer
+              </div>
               {/* <div className="i-title-item">Gamer</div>
               <div className="i-title-item">Soccer player</div>
               <div className="i-title-item">Gym Rat</div>
@@ -25,7 +35,6 @@ const Intro = () => {
             what makes everything work.
           </p> */}
         </div>
-        
       </div>
       <div className="i-right">
         <div className="i-bg"></div>

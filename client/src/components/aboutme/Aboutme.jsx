@@ -10,8 +10,12 @@ import Mysql from "../../img/mysql.png";
 import Git from "../../img/git.png";
 import Sass from "../../img/sass.png";
 import Java from "../../img/java.png";
+import { useContext } from "react";
+import { ThemeContext } from "../../context";
 
 const Aboutme = () => {
+  const theme = useContext(ThemeContext);
+  const darkMode = theme.state.darkMode;
   return (
     <div className="a">
       <div className="a-left">
@@ -22,9 +26,7 @@ const Aboutme = () => {
       </div>
       <div className="a-right">
         <h1 className="a-title">About Me</h1>
-        <p className="a-sub">
-          
-        </p>
+        <p className="a-sub"></p>
         <p className="a-desc">
           I am a problem solver, future full-stack developer, from Charlotte
           North Carolina. My passion for software development stems from my love
@@ -32,7 +34,9 @@ const Aboutme = () => {
           makes everything work.
         </p>
         <div className="a-award-text">
-          <h2 className="a-award-title">Top Skills</h2>
+          <h2 style={{ color: darkMode && "white" }} className="a-award-title">
+            Top Skills
+          </h2>
           {/* <p className="a-award-desc">
               I am the greatest full stack web developerto ever touch code.
             </p> */}
