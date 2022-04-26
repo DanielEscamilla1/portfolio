@@ -77,6 +77,12 @@ const Contact = () => {
               placeholder="Email"
               name="user_email"
             />
+            <input
+              style={{ backgroundColor: darkMode && "#333" }}
+              type="text"
+              placeholder="Phone Number"
+              name=""
+            />
             <textarea
               style={{ backgroundColor: darkMode && "#333" }}
               name="message"
