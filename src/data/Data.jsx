@@ -39,6 +39,6 @@ export const projects = [
     title: "Tik-Tac-Toe",
     img: "../../images/ttt.png",
     link: "https://kickers1.herokuapp.com/",
-    gitLink: "https://github.com/DanielEscamilla1/Gateway-redesign",
+    gitLink: "https://github.com/DanielEscamilla1/Tic-Tac-Toe",
   },
 ];
