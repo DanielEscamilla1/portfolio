@@ -1,0 +1,53 @@
+.main-nav {
+  padding: 1.5rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: black;
+  position: sticky;
+}
+
+.main-nav a:link {
+  color: white;
+  text-decoration: none;
+  padding: 0 1rem;
+  height: 100%;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.main-nav a:active {
+  color: #15cdfc;
+}
+
+.de {
+  font-size: 24px;
+  color: white;
+  text-decoration: none;
+  padding: 0 1rem;
+  height: 100%;
+  cursor: pointer;
+}
+
+.de:active {
+  color: #15cdfc;
+}
+
+.nav-btn {
+  border-radius: 4px;
+  background: #256ce1;
+  padding: 10px 22px;
+  color: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+}
+
+.nav-btn:hover {
+  transition: all 0.2s ease-in-out;
+  background: #fff;
+  color: #010606;
+}

@@ -9,7 +9,7 @@ const ProjectList = () => {
   const theme = useContext(ThemeContext);
   const darkMode = theme.state.darkMode;
   return (
-    <div className="pl">
+    <div id="projects" className="pl">
       <div className="pl-text">
         <h1 className="pl-title">My Software Engineering Journal!</h1>
         <p className="pl-desc"></p>

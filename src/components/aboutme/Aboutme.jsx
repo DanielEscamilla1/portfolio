@@ -17,7 +17,7 @@ const Aboutme = () => {
   const theme = useContext(ThemeContext);
   const darkMode = theme.state.darkMode;
   return (
-    <div className="a">
+    <div id="about" className="a">
       <div className="a-left">
         <div className="a-card bg"></div>
         <div className="a-card">
