@@ -79,3 +79,21 @@
     height: 15px;
   }
 }
+
+@media screen and (max-width: 850px) {
+  .p {
+    height: 180px;
+  }
+
+  .p-t {
+    display: none;
+  }
+
+  .gitBtn-text {
+    display: none;
+  }
+
+  .gitBtn {
+    display: none;
+  }
+}
