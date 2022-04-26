@@ -3,7 +3,7 @@ export const projects = [
     id: 1,
     title: "Gateway",
     img: "../../images/greece.png",
-    link: "https://kickers1.herokuapp.com/",
+    link: "https://danielescamilla1.github.io/Gateway-redesign/",
     gitLink: "https://github.com/DanielEscamilla1/Gateway-redesign",
   },
   {
@@ -37,7 +37,7 @@ export const projects = [
   {
     id: 6,
     title: "Tik-Tac-Toe",
-    img: "../../images/greece.png",
+    img: "../../images/ttt.png",
     link: "https://kickers1.herokuapp.com/",
     gitLink: "https://github.com/DanielEscamilla1/Gateway-redesign",
   },
