@@ -56,3 +56,21 @@
   background: #fff;
   color: #010606;
 }
+
+#de-text {
+  font-size: 24px;
+}
+
+@media screen and (max-width: 480px) {
+  .main-nav a:link {
+    font-size: 14px;
+  }
+
+  .nav-btn {
+    display: none;
+  }
+
+  #de-text {
+    display: none;
+  }
+}

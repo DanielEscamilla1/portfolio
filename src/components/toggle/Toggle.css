@@ -29,7 +29,14 @@
 
 @media screen and (max-width: 480px) {
   .t {
-    left: 44%;
-    top: 24px;
+    left: 2%;
+    top: 73.5px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .t {
+    left: 2%;
+    top: 30px;
   }
 }
