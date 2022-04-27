@@ -17,8 +17,13 @@
   font-size: 20px;
 }
 
-.main-nav a:active {
+.main-nav a:hover {
   color: #15cdfc;
+  transition: all 0.2s ease-in-out;
+}
+
+.main-nav:active {
+  color: white;
 }
 
 .de {
