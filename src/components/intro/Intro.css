@@ -104,3 +104,9 @@
     font-size: 24px;
   }
 }
+
+@media screen and (max-width: 850px) {
+  .i-title-item {
+    font-size: 24px;
+  }
+}
