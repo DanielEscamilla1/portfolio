@@ -3,6 +3,8 @@ import "./Contact.css";
 import Phone from "../../img/Phone.png";
 import Email from "../../img/email.png";
 import Address from "../../img/address.png";
+import gitHub from "../../img/github.jpg";
+import Linkedin from "../../img/linkedin.jpg";
 import emailjs from "@emailjs/browser";
 import { useContext } from "react";
 import { ThemeContext } from "../../context";
@@ -42,15 +44,23 @@ const Contact = () => {
           <div className="c-info">
             <div className="c-info-item">
               <img src={Phone} alt="" className="c-icon" />
-              +1 (336) 561-6735
+              +1 (336) 561-67** 
             </div>
             <div className="c-info-item">
               <img src={Email} alt="" className="c-icon" />
-              descamilla128@gmail.com
+              descamilla@roadtohire.org
             </div>
             <div className="c-info-item">
               <img src={Address} alt="" className="c-icon" />
-              210 Lynella lane, Thomasville, North Carolina
+              123 Hollywood Blv Charlotte, North Carolina 28212
+            </div>
+            <div className="c-info-item">
+              <img src={Linkedin} alt="" className="c-icon" />
+              www.linkedin.com/in/descamilla
+            </div>
+            <div className="c-info-item">
+              <img src={gitHub} alt="" className="c-icon" />
+              https://github.com/DanielEscamilla1
             </div>
           </div>
         </div>

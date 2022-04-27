@@ -9,6 +9,7 @@ import { BrowserRouter as Router } from "react-router-dom";
 import ProjectList from "./components/projectcards/ProjectList";
 import { useContext } from "react";
 import { ThemeContext } from "./context";
+import Footer from "./components/footer/Footer";
 
 function App() {
   const theme = useContext(ThemeContext);
@@ -27,6 +28,7 @@ function App() {
         <Aboutme />
         <ProjectList />
         <Contact />
+        {/* <Footer /> */}
       </div>
     </Router>
   );
